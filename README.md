@@ -1,0 +1,1 @@
+docker run -d --restart=always -v /var/lib/docker:/var/lib/docker -v /var/lib/mesos:/var/lib/mesos -v /opt/filebeat:/opt/filebeat  --name=filebeat niharvarma1247/filebeatmesos:4 '/opt/filebeat/filebeat.yml'
